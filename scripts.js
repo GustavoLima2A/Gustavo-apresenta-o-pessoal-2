@@ -1,4 +1,6 @@
-// Exemplo de interação simples com o botão
-document.querySelector('.cta-btn').addEventListener('click', () => {
-    alert("Você clicou no botão! Vamos explorar mais.");
+// Exemplo de animação simples
+document.addEventListener('DOMContentLoaded', () => {
+    const header = document.querySelector('header');
+    header.style.transition = 'transform 1s ease';
+    header.style.transform = 'scale(1.1)';
 });
