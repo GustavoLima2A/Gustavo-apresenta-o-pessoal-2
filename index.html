@@ -3,38 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Gustavo</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Apresentação Pessoal</title>
+    <link rel="stylesheet" href="style.css" </head>
+    <style>
+ 
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Bem-vindo ao meu site de apresentação pessoal</h1>
-    </header>
+    <!-- Menu de Navegação -->
+    <div class="navbar">
+        <a href="#home">Início</a>
+        <a href="#bio">Biografia</a>
+        <a href="#videos">Músicas</a>
+        <a href="#contato">Contato</a>
+    </div>
 
-    <section class="music-section">
-        <h2>Músicas</h2>
-        <audio controls>
-            <source src="musica1.mp3" type="audio/mpeg">
-            Seu navegador não suporta o áudio.
-        </audio>
-        <audio controls>
-            <source src="musica2.mp3" type="audio/mpeg">
-            Seu navegador não suporta o áudio.
-        </audio>
-        <audio controls>
-            <source src="musica3.mp3" type="audio/mpeg">
-            Seu navegador não suporta o áudio.
-        </audio>
-    </section>
+    <!-- Conteúdo Principal -->
+    <div id="home" class="content">
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>Conheça um pouco sobre minha história e as músicas que gosto de ouvir.</p>
+    </div>
 
-    <section class="video-section">
-        <h2>Vídeo</h2>
-        <video controls>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/peSqhK_4ZFY?si=oHGkzcz21m4MB9Lh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <source src="video.mp4" type="video/mp4">
-    </section>
+    <!-- Seção de Biografia -->
+    <div id="bio" class="content bio-section">
+        <h2>Biografia</h2>
+        <p>Insira aqui uma breve biografia sobre você, destacando os pontos mais importantes.</p>
+        <div>
+            <img src="sua-foto.jpg" alt="Sua Foto" style="width:200px; border-radius:50%; margin-top:20px;">
+        </div>
+    </div>
 
-    <script src="script.js"></script>
+    <!-- Seção de Músicas -->
+    <div id="videos" class="content video-section">
+        <h2>Minhas Músicas Favoritas</h2>
+        <div class="video-grid">
+            <!-- Vídeos do YouTube -->
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_5" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Seção de Contato -->
+    <div id="contato" class="content">
+        <h2>Contato</h2>
+        <p>Entre em contato pelo e-mail: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="footer">
+        <p>&copy; 2023 Seu Nome. Todos os direitos reservados.</p>
+    </div>
 </body>
 </html>
-
