@@ -65,6 +65,12 @@ iframe {
     width: 100%;
 }
 
-.content-foto {
-    margin-top: 22px;
+.foto {
+    background-color: #111;
+    color: #00ffcc;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
