@@ -1,4 +1,4 @@
-/* Estilo básico para um visual futurista */
+
 body {
     font-family: Arial, sans-serif;
     color: #00ffcc;
@@ -66,5 +66,5 @@ iframe {
 }
 
 .foto {
-    padding: 5%;
+    width: 50%;
 }
