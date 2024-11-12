@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #00ffcc;
+    color: #ff0000bd;
     background-color: #000;
     margin: 0;
     padding: 0;
@@ -15,13 +15,13 @@ body {
 }
 
 .navbar a {
-    color: #00ffcc;
+    color: #ff0000bd;
     text-decoration: none;
     padding: 10px 20px;
 }
 
 .navbar a:hover {
-    color: #ff0099;
+    color: #ffffff;
 }
 
 .content {
@@ -31,7 +31,7 @@ body {
 
 h1 {
     font-size: 2.5em;
-    color: #ff0099;
+    color: #ffffff;
 }
 
 .video-section, .bio-section {
@@ -57,7 +57,7 @@ iframe {
 
 .footer {
     background-color: #111;
-    color: #00ffcc;
+    color: #ff0000bd;
     text-align: center;
     padding: 20px;
     position: fixed;
